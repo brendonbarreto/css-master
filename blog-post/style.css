@@ -36,6 +36,9 @@ h2 {
 
 .author-text {
   font-size: 22px;
+  float: left;
+  margin-top: 35px;
+  margin-right: 10px;
 }
 
 .container {
@@ -49,10 +52,28 @@ h2 {
   padding-right: 30px;
 }
 
+.blog-post img {
+  height: 150px;
+  width: auto;
+}
+
 .other-posts {
   width: 25%;
   float: right;
 }
 
 .author-box {
+  border-top: 1px solid #808080;
+  padding-top: 20px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
+.other {
+  margin-bottom: 40px;
 }
